@@ -120,5 +120,42 @@ public :
 
 int main()
 {
+    BinaryTree x;
+    while(true)
+    {
+        cout << "\nMenu" << endl;
+        cout << "1. Implement insert operation" << endl;
+        cout << "2. Perform inorderntraversal" << endl;
+        cout << "3. Peform preorder traversal" << endl;
+        cout << "4. Perform postorder traversal" << endl;
+        cout << "5. Exit" << endl;
+        cout << "\nEnter your choice (1-5) :" << endl;
+
+        char ch;
+        cin >> ch;
+        cout << endl;
+
+        switch (ch)
+        {
+        case '1':
+        {
+            cout << "Enter a word: ";
+            string word;
+            cin >> word;
+            x.insert(word);
+            break;
+        }
+        case '2':
+        {
+            x.inorder(x.ROOT);
+            break;
+        }
+        case '3':
+        {
+            x.
+        }
+        }
+
+    }
 
 }
