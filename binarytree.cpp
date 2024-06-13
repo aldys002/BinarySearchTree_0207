@@ -95,8 +95,8 @@ public :
      }
      if (ptr != NULL)
      {
-        preorder(ptr->leftchild);
         cout << ptr->info << " ";
+        preorder(ptr->leftchild);
         preorder(ptr->rightchild);
      }
    }
@@ -111,9 +111,14 @@ public :
      if (ptr != NULL)
      {
         postorder(ptr->leftchild);
-        cout << ptr->info << " ";
         postorder(ptr->rightchild);
+        cout << ptr->info << " ";
      }
    }
 
 };
+
+int main()
+{
+
+}
