@@ -20,5 +20,17 @@ public :
 
 class BinaryTree 
 {
+public : 
+   Node* ROOT;
+
+   BinaryTree ()
+   {
+    ROOT = nullptr; // Inializing ROOT to null
+   }
+
+   void insert(string element) // Insert a node in the binary search tree
+   {
+    
+   }
 
 };
