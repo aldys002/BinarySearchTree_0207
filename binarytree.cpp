@@ -49,6 +49,11 @@ public :
       {
         parent->leftchild = newNode; // Make the left child of the parent point to the new node
       }
+
+      else if (element > parent->info) // if the value in the data field of the new nodeis greater than that
+      {
+        parent->rightchild = newNode; // make the right child of the parent poin to the new node
+      }
    }
 
 };
